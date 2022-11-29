@@ -496,7 +496,7 @@ This approach is seen in file systems and RDBMSes.  Strong consistency works wel
 
 * [Transactions across data centers](http://snarfed.org/transactions_across_datacenters_io.html)
 
-## Availability patterns
+## Availability patterns ✅
 
 There are two complementary patterns to support high availability: **fail-over** and **replication**.
 
@@ -578,7 +578,7 @@ Availability (Total) = 1 - (1 - Availability (Foo)) * (1 - Availability (Bar))
 
 If both `Foo` and `Bar` each had 99.9% availability, their total availability in parallel would be 99.9999%.
 
-## Domain name system
+## Domain name system ✅
 
 <p align="center">
   <img src="images/IOyLj4i.jpg">
@@ -616,7 +616,7 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
 * [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
 * [DNS articles](https://support.dnsimple.com/categories/dns/)
 
-## Content delivery network
+## Content delivery network ✅
 
 <p align="center">
   <img src="images/h9TAuGI.jpg">
@@ -657,7 +657,7 @@ Sites with heavy traffic work well with pull CDNs, as traffic is spread out more
 * [The differences between push and pull CDNs](http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/)
 * [Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)
 
-## Load balancer
+## Load balancer ✅
 
 <p align="center">
   <img src="images/h81n9iK.png">
@@ -700,7 +700,7 @@ Layer 7 load balancers look at the [application layer](#communication) to decide
 
 At the cost of flexibility, layer 4 load balancing requires less time and computing resources than Layer 7, although the performance impact can be minimal on modern commodity hardware.
 
-### Horizontal scaling
+### Horizontal scaling 🟧
 
 Load balancers can also help with horizontal scaling, improving performance and availability.  Scaling out using commodity machines is more cost efficient and results in higher availability than scaling up a single server on more expensive hardware, called **Vertical Scaling**.  It is also easier to hire for talent working on commodity hardware than it is for specialized enterprise systems.
 
