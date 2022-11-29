@@ -435,7 +435,7 @@ Generally, you should aim for **maximal throughput** with **acceptable latency**
 
 * [Understanding latency vs throughput](https://community.cadence.com/cadence_blogs_8/b/fv/posts/understanding-latency-vs-throughput)
 
-## Availability vs consistency
+## Availability vs consistency ✅
 
 ### CAP theorem
 
@@ -470,7 +470,7 @@ AP is a good choice if the business needs to allow for [eventual consistency](#e
 * [CAP FAQ](https://github.com/henryr/cap-faq)
 * [The CAP theorem](https://www.youtube.com/watch?v=k-Yaq8AHlFA)
 
-## Consistency patterns
+## Consistency patterns ✅
 
 With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem](#cap-theorem) - Every read receives the most recent write or an error.
 
