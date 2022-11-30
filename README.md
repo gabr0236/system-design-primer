@@ -700,7 +700,7 @@ Layer 7 load balancers look at the [application layer](#communication) to decide
 
 At the cost of flexibility, layer 4 load balancing requires less time and computing resources than Layer 7, although the performance impact can be minimal on modern commodity hardware.
 
-### Horizontal scaling 🟧
+### Horizontal scaling
 
 Load balancers can also help with horizontal scaling, improving performance and availability.  Scaling out using commodity machines is more cost efficient and results in higher availability than scaling up a single server on more expensive hardware, called **Vertical Scaling**.  It is also easier to hire for talent working on commodity hardware than it is for specialized enterprise systems.
 
@@ -727,7 +727,7 @@ Load balancers can also help with horizontal scaling, improving performance and 
 * [Layer 7 load balancing](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
 * [ELB listener config](http://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-listener-config.html)
 
-## Reverse proxy (web server)
+## Reverse proxy (web server) ✅
 
 <p align="center">
   <img src="images/n41Azff.png">
@@ -770,7 +770,7 @@ Additional benefits include:
 * [HAProxy architecture guide](http://www.haproxy.org/download/1.2/doc/architecture.txt)
 * [Wikipedia](https://en.wikipedia.org/wiki/Reverse_proxy)
 
-## Application layer
+## Application layer ✅
 
 <p align="center">
   <img src="images/yB5SYwm.png">
@@ -797,7 +797,7 @@ Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://
 * Adding an application layer with loosely coupled services requires a different approach from an architectural, operations, and process viewpoint (vs a monolithic system).
 * Microservices can add complexity in terms of deployments and operations.
 
-### Source(s) and further reading
+### Source(s) and further reading 🟧
 
 * [Intro to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale)
 * [Crack the system design interview](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
