@@ -797,7 +797,7 @@ Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://
 * Adding an application layer with loosely coupled services requires a different approach from an architectural, operations, and process viewpoint (vs a monolithic system).
 * Microservices can add complexity in terms of deployments and operations.
 
-### Source(s) and further reading 🟧
+### Source(s) and further reading 
 
 * [Intro to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale)
 * [Crack the system design interview](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
@@ -805,7 +805,7 @@ Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://
 * [Introduction to Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper)
 * [Here's what you need to know about building microservices](https://cloudncode.wordpress.com/2016/07/22/msa-getting-started/)
 
-## Database
+## Database ✅
 
 <p align="center">
   <img src="images/Xkm5CXz.png">
@@ -1129,7 +1129,7 @@ Sample data well-suited for NoSQL:
 * [Scaling up to your first 10 million users](https://www.youtube.com/watch?v=kKjm4ehYiMs)
 * [SQL vs NoSQL differences](https://www.sitepoint.com/sql-vs-nosql-differences/)
 
-## Cache
+## Cache ✅
 
 <p align="center">
   <img src="images/Q6z24La.png">
@@ -1321,7 +1321,7 @@ Refresh-ahead can result in reduced latency vs read-through if the cache can acc
 * [AWS ElastiCache strategies](http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Strategies.html)
 * [Wikipedia](https://en.wikipedia.org/wiki/Cache_(computing))
 
-## Asynchronism
+## Asynchronism ✅
 
 <p align="center">
   <img src="images/54GYsSx.png">
